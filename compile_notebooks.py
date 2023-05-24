@@ -41,6 +41,7 @@ def main():
         with io.open(pypath, 'w', encoding='utf-8') as f:
             f.write(script)
         print("Saved script %s" % pypath)
+        print("1")
 
 
 if __name__ == "__main__":
